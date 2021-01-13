@@ -1,0 +1,1 @@
+export const numbersToSymbols = (str: string, symbol: string): string => str.replace(/\d/g, `${symbol}`);
